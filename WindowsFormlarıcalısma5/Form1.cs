@@ -40,6 +40,7 @@ namespace WindowsFormlarıcalısma5
                     puan = puan - 100;
                     label7.Text = puan.ToString();
                 }
+
                 else // eğer girilen sayı (tahmin) random sayımıza eşitse
                 {
                     label5.Text = "Tebrikler! " + label6.Text + " defada bilip, " + label7.Text + " puan aldınız.";
